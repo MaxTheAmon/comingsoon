@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  line-height: 1.6;
+  text-transform: none;
+  text-align: center;
+}
+
+#showcase {
+  background-image: url("../Images/beachdog.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  height: 100vh;
+  padding: 0 20px;
+}
