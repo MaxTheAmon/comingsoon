@@ -2,18 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 div.flex_container {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../Images/pexels-philippe-donn-1169754.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../Images/pexels-philippe-donn-1169754.jpg") no-repeat center
+      center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color:white;
+  color: white;
 }
 
 div.flex_container h1 {
@@ -24,9 +24,10 @@ div.flex_container h1 {
 
 div.flex_container h2 {
   font-size: 2rem;
+  margin: 0.5rem;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
   div.flex_container h1 {
     font-weight: bold;
     font-size: 4.3rem;
