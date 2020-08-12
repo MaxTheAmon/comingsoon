@@ -1,23 +1,38 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body {
-  margin: 0;
-  font-family: fantasy;
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  line-height: 1.6;
-  text-transform: none;
-  text-align: center;
-}
-
-#showcase {
-  background-image: url("../Images/beachdog.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.9;
+div.flex_container {
   height: 100vh;
-  padding: 0 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../Images/Jerusalem.jpeg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:white;
+}
+
+div.flex_container h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+
+div.flex_container h2 {
+  font-size: 2rem;
+}
+
+@media screen and (min-width:768px){
+  div.flex_container h1 {
+    font-weight: bold;
+    font-size: 4.3rem;
+    margin: 2rem;
+  }
+  div.flex_container h2 {
+    font-size: 3rem;
+  }
 }
