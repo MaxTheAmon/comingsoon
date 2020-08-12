@@ -7,8 +7,8 @@
 
 div.flex_container {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../Images/Jerusalem.jpeg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../Images/pexels-philippe-donn-1169754.jpg") no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
