@@ -27,6 +27,35 @@ div.flex_container h2 {
   margin: 0.5rem;
 }
 
+div.about-me-container {
+  height: 100vh;
+  padding: 1rem;
+  background: linear-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+}
+
+div.about-me-container i {
+  font-size: 1rem;
+}
+
+div.growing-up {
+  margin: 1rem;
+}
+
+div.work-experience {
+  margin: 1rem;
+}
+
+div.today {
+  margin: 1rem;
+}
+
 @media screen and (min-width: 768px) {
   div.flex_container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -41,5 +70,15 @@ div.flex_container h2 {
   }
   div.flex_container h2 {
     font-size: 3rem;
+  }
+
+  div.about-me-container {
+    height: 50vh;
+    flex-direction: row;
+    overflow: auto;
+  }
+
+  div.about-me-container i {
+    font-size: 2rem;
   }
 }
