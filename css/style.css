@@ -72,7 +72,7 @@ div.flex_container h2 {
 div.about-me-container {
   min-height: 60vh;
   padding: 1rem;
-  background: linear-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background: linear-gradient(#892be298, #892be291);
   line-height: 2;
   display: flex;
   flex-direction: column;
@@ -121,13 +121,14 @@ div.today {
 }
 
 #contact {
+  background: linear-gradient(#892be298, #892be291);
   height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 1rem;
+  /* margin: 1rem; */
   text-transform: capitalize;
   font-weight: bold;
 }
@@ -138,7 +139,7 @@ div.today {
 
 #contact div a {
   text-decoration: none;
-  color: blueviolet;
+  color: blue;
 }
 
 #contact div a:hover {
@@ -148,6 +149,10 @@ div.today {
 #contact span {
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+#max {
+  color: blue;
 }
 
 @media screen and (min-width: 768px) {
