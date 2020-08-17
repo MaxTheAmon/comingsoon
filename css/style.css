@@ -21,13 +21,13 @@
 #navbar ul li {
   list-style-type: none;
 }
-#navbar ul li a{
+#navbar ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: antiquewhite;
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover {
   transform: scale(1.3);
 }
 
@@ -95,7 +95,7 @@ div.today {
 }
 
 #contact {
-  height: 50vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,13 +119,13 @@ div.today {
   cursor: pointer;
 }
 
-#contact span{
+#contact span {
   margin-top: 1rem;
   font-size: 1rem;
 }
 
 @media screen and (min-width: 768px) {
-  #navbar{
+  #navbar {
     font-size: 1.5rem;
   }
 
@@ -154,8 +154,8 @@ div.today {
     font-size: 2rem;
   }
 
-  #contact{
-    height: 20vh;
+  #contact {
+    height: 35vh;
     font-size: 1.5rem;
   }
 }
