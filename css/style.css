@@ -4,6 +4,33 @@
   box-sizing: border-box;
 }
 
+#navbar {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+#navbar ul {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#navbar ul li {
+  list-style-type: none;
+}
+#navbar ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: antiquewhite;
+}
+
+#navbar ul li a:hover{
+  transform: scale(1.3);
+}
+
 div.flex_container {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -14,12 +41,20 @@ div.flex_container {
   align-items: center;
   text-align: center;
   color: white;
+  background-attachment: fixed;
 }
 
 div.flex_container h1 {
   font-weight: bold;
   font-size: 2.5rem;
   margin: 2rem;
+}
+
+div.flex_container ul li {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  list-style-type: none;
+  color: rgb(187, 195, 202);
 }
 
 div.flex_container h2 {
@@ -46,17 +81,54 @@ div.about-me-container i {
 
 div.growing-up {
   margin: 1rem;
+  flex: 1;
 }
 
 div.work-experience {
   margin: 1rem;
+  flex: 1;
 }
 
 div.today {
   margin: 1rem;
+  flex: 1;
+}
+
+#contact {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+#contact div {
+  margin: 1rem;
+}
+
+#contact div a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+#contact div a:hover {
+  cursor: pointer;
+}
+
+#contact span{
+  margin-top: 1rem;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 768px) {
+  #navbar{
+    font-size: 1.5rem;
+  }
+
   div.flex_container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url("../Images/pexels-philippe-donn-1169754-large.jpg") no-repeat center
@@ -80,5 +152,10 @@ div.today {
 
   div.about-me-container i {
     font-size: 2rem;
+  }
+
+  #contact{
+    height: 20vh;
+    font-size: 1.5rem;
   }
 }
