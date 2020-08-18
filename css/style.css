@@ -46,6 +46,7 @@ div.flex_container {
 
 div.flex_container #profile {
   width: 7rem;
+  border: 2px solid #892be298;
   border-radius: 50%;
   margin-bottom: 0;
 }
@@ -70,12 +71,12 @@ div.flex_container h2 {
 }
 
 #contact-me-button {
-  background: linear-gradient(#892be298, #892be291);
+  background: transparent;
   padding: 0.3rem;
   color: rgb(187, 195, 202);
   text-decoration: none;
   text-transform: uppercase;
-  border: 0.1rem solid black;
+  border: 0.1rem solid #892be298;
   border-radius: 0.4rem;
   margin: 4rem;
 }
