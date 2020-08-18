@@ -40,7 +40,7 @@ div.flex_container {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: rgb(187, 195, 202);
   background-attachment: fixed;
 }
 
@@ -67,6 +67,17 @@ div.flex_container ul li {
 div.flex_container h2 {
   font-size: 2rem;
   margin: 0.5rem;
+}
+
+#contact-me-button {
+  background: linear-gradient(#892be298, #892be291);
+  padding: 0.3rem;
+  color: rgb(187, 195, 202);
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 0.1rem solid black;
+  border-radius: 0.4rem;
+  margin: 4rem;
 }
 
 div.about-me-container {
