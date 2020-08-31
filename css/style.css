@@ -115,13 +115,21 @@ div.today {
 }
 
 #skills {
+  padding: 1.5rem 0;
   min-height: 75vh;
-  background: linear-gradient(rgba(60, 148, 38, 0.7), rgba(60, 148, 38, 0.7));
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../Images/pexels-philippe-donn-1169754-small.jpg") no-repeat center
+      center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: rgb(187, 195, 202);
+}
+
+#skills h1 {
+  font-size: 3rem;
 }
 
 #skills h3 {
@@ -164,6 +172,14 @@ div.today {
   font-size: 1rem;
 }
 
+#contact h4 {
+  padding-bottom: 0.2rem;
+}
+
+#contact-email {
+  text-transform: none;
+}
+
 #max {
   color: blue;
 }
@@ -194,7 +210,8 @@ div.today {
   }
 
   div.about-me-container {
-    height: 50vh;
+    /* height: 65vh; */
+    min-height: 50vh;
     flex-direction: row;
     overflow: auto;
   }
@@ -204,7 +221,14 @@ div.today {
   }
 
   #contact {
-    height: 35vh;
+    /* height: 50vh; */
+    min-height: 40vh;
     font-size: 1.5rem;
+  }
+
+  #skills {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../Images/pexels-philippe-donn-1169754-large.jpg") no-repeat center
+        center/cover;
   }
 }
