@@ -1,5 +1,5 @@
 setInterval(function () {
-  var launch = moment("2020-09-25");
+  var launch = moment("2020-02-04");
   var current = moment();
   var diff = launch - current;
   //console.log('The difference is', diff);
