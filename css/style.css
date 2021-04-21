@@ -4,6 +4,34 @@
   box-sizing: border-box;
 }
 
+#navbar {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  border-bottom: 2px solid #892be298;
+}
+
+#navbar ul {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#navbar ul li {
+  list-style-type: none;
+}
+#navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: antiquewhite;
+}
+
+#navbar ul li a:hover {
+  transform: scale(1.3);
+}
+
 div.flex_container {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -13,13 +41,29 @@ div.flex_container {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: rgb(187, 195, 202);
+  background-attachment: fixed;
+}
+
+div.flex_container #profile {
+  width: 7rem;
+  border: 2px solid #892be298;
+  border-radius: 50%;
+  margin-bottom: 0;
 }
 
 div.flex_container h1 {
   font-weight: bold;
   font-size: 2.5rem;
   margin: 2rem;
+  margin-top: 0.4rem;
+}
+
+div.flex_container ul li {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  list-style-type: none;
+  color: rgb(187, 195, 202);
 }
 
 div.flex_container h2 {
@@ -27,11 +71,133 @@ div.flex_container h2 {
   margin: 0.5rem;
 }
 
+#contact-me-button {
+  background: transparent;
+  padding: 0.3rem;
+  color: rgb(187, 195, 202);
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 0.15rem solid #892be298;
+  border-radius: 0.4rem;
+  margin: 4rem;
+}
+
+div.about-me-container {
+  min-height: 60vh;
+  padding: 1rem;
+  background: linear-gradient(#892be298, #892be291);
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+}
+
+div.about-me-container i {
+  font-size: 1rem;
+}
+
+div.growing-up {
+  margin: 1rem;
+  flex: 1;
+}
+
+div.work-experience {
+  margin: 1rem;
+  flex: 1;
+}
+
+div.today {
+  margin: 1rem;
+  flex: 1;
+}
+
+#skills {
+  padding: 1.5rem 0;
+  min-height: 75vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../Images/pexels-philippe-donn-1169754-small.jpg") no-repeat center
+      center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(187, 195, 202);
+}
+
+#skills h1 {
+  font-size: 3rem;
+}
+
+#skills h3 {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+#skills li {
+  list-style-type: none;
+}
+
+#contact {
+  background: linear-gradient(#892be298, #892be291);
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin: 1rem; */
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+#contact div {
+  margin: 1rem;
+}
+
+#contact div a {
+  text-decoration: none;
+  color: blue;
+}
+
+#contact div a:hover {
+  cursor: pointer;
+}
+
+#contact span {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+#contact h4 {
+  padding-bottom: 0.2rem;
+}
+
+#contact-email {
+  text-transform: none;
+}
+
+#max {
+  color: blue;
+}
+
 @media screen and (min-width: 768px) {
+  #navbar {
+    font-size: 1.5rem;
+  }
+
   div.flex_container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url("../Images/pexels-philippe-donn-1169754-large.jpg") no-repeat center
         center/cover;
+    background-attachment: fixed;
+  }
+
+  div.flex_container #profile {
+    width: 10rem;
   }
 
   div.flex_container h1 {
@@ -41,5 +207,28 @@ div.flex_container h2 {
   }
   div.flex_container h2 {
     font-size: 3rem;
+  }
+
+  div.about-me-container {
+    /* height: 65vh; */
+    min-height: 50vh;
+    flex-direction: row;
+    overflow: auto;
+  }
+
+  div.about-me-container i {
+    font-size: 2rem;
+  }
+
+  #contact {
+    /* height: 50vh; */
+    min-height: 40vh;
+    font-size: 1.5rem;
+  }
+
+  #skills {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../Images/pexels-philippe-donn-1169754-large.jpg") no-repeat center
+        center/cover;
   }
 }
