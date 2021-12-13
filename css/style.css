@@ -35,7 +35,7 @@
 div.flex_container {
 	height: 100vh;
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-		url("../Images/ivana-cajina-asuyh-_ZX54-unsplash.jpg") no-repeat center
+		url("../Images/pexels-philippe-donn-1169754-small.jpg") no-repeat center
 			center/cover;
 	display: flex;
 	justify-content: center;
@@ -224,10 +224,7 @@ div.today {
 		/* height: 50vh; */
 		min-height: 40vh;
 		font-size: 1.5rem;
-	}
-
-	#skills {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 			url("../Images/pexels-philippe-donn-1169754-large.jpg") no-repeat center
 				center/cover;
 	}
